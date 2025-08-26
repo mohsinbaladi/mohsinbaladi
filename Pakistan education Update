@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pakistan Education Update</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #006400;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background: #004d00;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1523580846011-d3a5bc25702b') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #006400;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #004d00;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Pakistan Education Update<br>پاکستان ایجوکیشن اپڈیٹ</h1>
+    <p>Latest news, admissions, scholarships & results<br>تازہ تعلیمی خبریں، داخلے، وظائف اور نتائج</p>
+  </header>
+
+  <nav>
+    <a href="#news">News / خبریں</a>
+    <a href="#scholarships">Scholarships / اسکالرشپس</a>
+    <a href="#results">Results / نتائج</a>
+    <a href="#contact">Contact / رابطہ</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Stay Updated with Pakistan’s Education</h1>
+    <p>Scholarships, Admissions, Exams & Results</p>
+    <button>Get Updates / مزید دیکھیں</button>
+  </section>
+
+  <section class="section" id="news">
+    <h2>📢 Education News / تعلیمی خبریں</h2>
+    <p>Here you can share the latest updates on admissions, exam schedules, and educational reforms.</p>
+  </section>
+
+  <section class="section" id="scholarships">
+    <h2>🎓 Scholarships / اسکالرشپس</h2>
+    <p>Post about local & international scholarship opportunities for students.</p>
+  </section>
+
+  <section class="section" id="results">
+    <h2>📝 Results / نتائج</h2>
+    <p>Update your visitors with matric, intermediate, university, and competitive exam results.</p>
+  </section>
+
+  <section class="section" id="contact">
+    <h2>📩 Contact / رابطہ کریں</h2>
+    <form>
+      <label>Name / نام:</label><br>
+      <input type="text" style="width:100%; padding:8px;"><br><br>
+      <label>Email / ای میل:</label><br>
+      <input type="email" style="width:100%; padding:8px;"><br><br>
+      <label>Message / پیغام:</label><br>
+      <textarea style="width:100%; padding:8px;" rows="4"></textarea><br><br>
+      <button type="submit">Send / بھیجیں</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Pakistan Education Update | پاکستان ایجوکیشن اپڈیٹ</p>
+  </footer>
+</body>
+</html>
